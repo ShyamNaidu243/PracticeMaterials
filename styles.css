@@ -1,0 +1,33 @@
+.Navbar{
+    display:inline-block;
+}
+
+.div_bar{
+    border: 0.5px solid black;
+    margin:0%;
+    width: 100%;
+    opacity:1;
+    padding: 0;
+    display:flex;
+    justify-content: right;
+    overflow: hidden;
+    transition: opacity 0.5s, width 0.5s;
+    /* text-transform: uppercase; */
+
+}
+
+nav li{
+    display: inline-block;
+    justify-content: space-evenly;
+    color: brown;
+    padding-right: 20%;
+}
+nav a{
+    color: brown;
+    text-decoration: none;
+    
+}
+nav{
+    background-color: beige;
+    
+}
